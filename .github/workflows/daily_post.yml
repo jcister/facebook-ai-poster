@@ -3,7 +3,7 @@ name: Daily Graphic Design Post
 on:
   # Schedule to run every day at 17:00 UTC, which is 1:00 AM Philippine Time (PHT).
   schedule:
-    - cron: '0 17 * * *'
+    - cron: '0 9 * * *'
     
   # Allows you to run this workflow manually from the Actions tab for testing.
   workflow_dispatch:
